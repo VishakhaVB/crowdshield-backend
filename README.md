@@ -17,7 +17,7 @@ This backend handles authentication, dashboards, and event-related data services
 
 ## 📂 Project Structure
 
-
+```
 crowdshield-backend/
 │── data/ # Static or seed data
 │── models/ # Database models
@@ -29,7 +29,7 @@ crowdshield-backend/
 │── verify_backend.js # Backend verification script
 │── verify_pilgrim.js # Pilgrim service verification
 
-
+```
 ---
 
 ## ⚙️ Installation
@@ -46,20 +46,24 @@ cd crowdshield-backend
 ```
 
 3️⃣ Install dependencies
+```
 npm install
+```
 4️⃣ Create a .env file
-
+```
 Use .env.example as reference.
-
+```
 5️⃣ Start the server
+```
 npm start
+```
 🌐 Live Deployment
 
 Backend is deployed on:
-
+```
 👉 https://crowdshield-backend.onrender.com
-
-🔐 Features
+```
+#🔐 Features
 
 User Authentication
 
@@ -71,7 +75,7 @@ Scalable API Structure
 
 Modular Service Architecture
 
-📌 Future Improvements
+#📌 Future Improvements
 
 Add real-time crowd analytics
 
@@ -81,7 +85,7 @@ Improve logging and monitoring
 
 Add automated testing
 
-👩‍💻 Author
+#👩‍💻 Author
 
 Vishakha Bhilwadkar
 GitHub: https://github.com/VishakhaVB
